@@ -3,26 +3,28 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'lhj-dosc-site',
-  description: 'A VitePress Site',
+  description: '前端技术文档',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Tools', link: '/docs/tools/webpack' },
+      { text: 'Vue3', link: '/docs/vue/vue3' },
+      { text: 'React18', link: '/docs/react/react18' }
     ],
 
     sidebar: [
       {
         text: 'Tools',
-        items: [{ text: 'webpack', link: '/docs/tools/webpack' }]
+        items: [{ text: 'Webpack', link: '/docs/tools/webpack' }]
       },
       {
         text: 'Vue',
-        items: [{ text: 'vue3', link: '/docs/vue/vue3' }]
+        items: [{ text: 'Vue3', link: '/docs/vue/vue3' }]
       },
       {
         text: 'React',
-        items: [{ text: 'react18', link: '/docs/react/react18' }]
+        items: [{ text: 'React18', link: '/docs/react/react18' }]
       }
     ],
 
