@@ -26,3 +26,4 @@ dist-ssr
 dist.zip
 .vitepress/cache
 .vitepress/dist
+.vitepress/dist/dist.zip
