@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: 'lhj-dosc-site'
-  text: '前端技术文档'
+  text: '前端技术文档-测试'
   tagline: My great project tagline
   actions:
     - theme: brand
